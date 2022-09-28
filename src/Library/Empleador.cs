@@ -8,7 +8,9 @@ namespace Chatbot
         public string Nombre {get;set;}
         public string Email {get;set;}
         public string Contraseña {get;set;}
-        public List<double> Calificaciones {get;set;}
+        public string Telefono {get;set;}
+        public string Ubicacion {get;set;}
+        public List<Contrato> Calificaciones = new List<Contrato>();
 
 
 
@@ -20,7 +22,23 @@ namespace Chatbot
         {
 
         }
-        public void Calificacion()
+        public void Calificar()
+        {
+            
+        }
+        public void GetCalificacion()
+        {
+            
+        }
+        public void ContratarServicio()
+        {
+            
+        }
+        public List<OfertaServicios> GetServicios()
+        {
+
+        }
+        public List<Categoria> GetCategorias()
         {
             
         }

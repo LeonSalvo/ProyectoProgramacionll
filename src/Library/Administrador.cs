@@ -18,5 +18,18 @@ namespace Chatbot
         {
 
         }
+
+        public void AgregarCategoria()
+        {
+
+        }
+        public void QuitarCategoria()
+        {
+            
+        }
+        public void QuitarServicio  ()
+        {
+            
+        }
     }
 }

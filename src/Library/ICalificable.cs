@@ -5,7 +5,7 @@ namespace Chatbot
 {
     public interface ICalificable
     {
-        public List<double> Calificaciones {get;set;}
-        public void Calificacion();
+        public void GetCalificacion();
+        public void Calificar();
     }
 }
